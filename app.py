@@ -234,7 +234,7 @@ def handle_requests():
         like_given = after_like - before_like
         
         return jsonify({
-            "credit": "https://t.me/paglu_dev",
+            "credit": "https://t.me/vexsor_shop",
             "LikesGivenByAPI": like_given,
             "LikesafterCommand": after_like,
             "LikesbeforeCommand": before_like,
